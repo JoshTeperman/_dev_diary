@@ -16,25 +16,39 @@ header h1{
 
 footer {
   width: 100%;
+  margin-top: 80px; 
 }
 
-ul {
-  padding: 0px;
-  text-align: center;
-}
 
-li {
-  display: inline;
-}
 
-.main {
+#main {
   width: 900px;
   max-width: 900p;
   margin: 0 auto;
 
 }
 
-.socials ul {
-  align-content: center
+#socials ul {
+  padding: 0px;
+  text-align: center;
 }
+
+#socials li {
+  font-size: 1.2em;
+  display: inline;
+  justify-content: space-between;
+  padding: 0px 20px;
+  
+}
+
+header {
+  width: 100%;
+  background-color: white;
+}
+body {
+  width: 900px; 
+  margin: 0 auto; 
+  background:rgba(211, 211, 211, 0.623)
+}
+
 
