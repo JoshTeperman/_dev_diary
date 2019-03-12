@@ -43,7 +43,6 @@ footer {
 
 header {
   width: 100%;
-  background-color: white;
 }
 body {
   width: 900px; 
@@ -53,4 +52,9 @@ body {
 
 .logo {
   color: black;
+}
+
+.logo:hover {
+  color: rgb(150, 6, 6);
+  cursor: pointer;
 }
