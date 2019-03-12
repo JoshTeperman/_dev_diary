@@ -10,8 +10,10 @@ header {
 }
 
 header h1{
-  align-content: center;
-  text-transform: italics;
+  text-align: center;
+  font-style: italic;
+  font-size: 2.5em;
+  color: rgb(100, 3, 3);
 
 }
 
@@ -62,4 +64,5 @@ p {
 .entry-title:hover{
   color: rgb(150, 6, 6);
   cursor: pointer;
+  font-size: 1.52em;
 }
