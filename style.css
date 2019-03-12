@@ -1,5 +1,9 @@
+header {
+  width: 100%;
+  background-color: white;
+}
 body {
   width: 900px; 
-  margin: auto; 
+  margin: 0 auto; 
   background:rgba(211, 211, 211, 0.623)
 }
