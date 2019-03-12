@@ -3,3 +3,26 @@ body {
   margin: auto; 
   background:rgba(211, 211, 211, 0.623)
 }
+
+
+header {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+
+ul {
+  padding: 0px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+
+.socials ul {
+  align-content: center
+}
