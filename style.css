@@ -1,6 +1,4 @@
-header {
-  width: 100%;
-  background-color: white;
+
 }
 body {
   width: 900px; 
@@ -8,6 +6,9 @@ body {
   background:rgba(211, 211, 211, 0.623)
 }
 
+header {
+  width: 100%;
+  background-color: white;
 
 header {
   width: 100%;
