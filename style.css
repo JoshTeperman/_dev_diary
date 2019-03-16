@@ -67,9 +67,9 @@ p {
   margin: 10px 0px;
 }
 
-
-
-
+p a {
+  color: rgb(100, 3, 3);
+}
 
 #socials ul {
   margin: 0px;
