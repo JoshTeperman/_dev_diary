@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" blog-post="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" blog-post="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <script src="https://use.fontawesome.com/19bd303904.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
@@ -11,18 +12,21 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <h1 class="banner-title">dev_diary</h1>
-    <ul class="socials">
-      <li><a href="https://github.com/JoshTeperman/"><i class="fa fa-github logo"></i></a></li>
-      <li><a href="https://twitter.com/joshteperman"><i class="fa fa-twitter logo"></i></a></li>
 
-    </ul>
-  </div>
-  
   <div class="main">
-    <div class="wrapper">
-      <div class="content">
+    <div class="navbar">
+      <div class="navbar-content">
+        <h1 class="banner-title">dev_diary</h1>
+        <ul class="socials">
+          <li><a href="https://github.com/JoshTeperman/"><i class="fa fa-github logo"></i></a></li>
+          <li><a href="https://twitter.com/joshteperman"><i class="fa fa-twitter logo"></i></a></li>
+          <li><a href="https://www.josht.dev/"><i class="fas fa-globe logo"></i></a></li>
+          <li><a href="https://dev.to/joshteperman"><i class="fab fa-dev logo"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div class="blog-post">
         <a href="#mar-26"><h2 id="mar-26" class="entry-title">March 26</h2></a> 
         <p>#1000 Days of Code: Day 40</p>
         <p>Up at 6:45. Cafe at 7:01</p>
@@ -32,14 +36,14 @@
         <p>Went home and worked on remaining Ruby Fundamentals. Challenges that stumped me before seemed pretty easy now. Progress!</p>
         <p>Made first commits to <a href="https://github.com/JoshTeperman/code_goggles" target="_blank">Code Goggles</a>. Using links to Gists could be a way to get something up and running without having to deal with MySQL etc. Going to have to learn about architecture though. Best way to structure a website and how the pieces fit together.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-25"><h2 id="mar-25" class="entry-title">March 25</h2></a> 
         <p>#1000 Days of Code: Day 39</p>
         <p>Up at 6:30. Headache. First time I had more than 2 beers in a long time last night. That's why I don't drink much anymore.</p>
         <p>Presentations today for Portfolio Site.</p>
         <p>In Ruby Review mode for the start of Rails.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-24"><h2 id="mar-24" class="entry-title">March 24</h2></a> 
         <p>#1000 Days of Code: Day 39</p>
         <p>Up at 6:30.</p>
@@ -49,29 +53,29 @@
         <p>Itching to get on to some other projects. In particular a web scraper of some kind (want to play with APIs and do something with Bitcoin. Also want to get a head start on Javascript and make some basic apps.</p>
         <p>Just purchased a React/Redux coure on Udemy.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-23"><h2 id="mar-23" class="entry-title">March 23</h2></a> 
         <p>#1000 Days of Code: Day 38</p>
         <p>Up at 6:30, Some coding before N gets up. Have a couple of hours while N at work today.</p>
         <p>Want to complete alignment issues for my portfolio site and smash out the Readme file. Then can try for a couple of extra features.</p>
         <p>Got most of the alignment issues in the afternoon and went to the gym.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-22"><h2 id="mar-22" class="entry-title">March 22</h2></a> 
         <p>#1000 Days of Code: Day 37</p>
         <p>Up at 5:40, cafe by 6:50</p>
         <p>Completed bare bones of the app today. Desktop View is fairly clean. Still have issues with how the letters align on tablet and mobile. My want to try coding each word as a block to avoid this, but won't be able to animate individual letters.</p>
         <p>Site is now live at <a href="josht.dev" target="_blank">www.josht.dev</a>. Hosted on Netlify.</p>
         <p>Feeling much more comfortable with CSS and HTML basics, ready to learn Javascript and got back to OOL.</p>
-
+  
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-21"><h2 id="mar-21" class="entry-title">March 21</h2></a> 
         <p>#1000 Days of Code: Day 36</p>
         <p>Up at 5:45, cafe by 7:05</p>
         <p>Continuing work on portfolio site. Most urgent tasks are completing code for Home Tablet and Mobile, then extending to About, Projects, and Contact Pages which should be much easier.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-20"><h2 id="mar-20" class="entry-title">March 20</h2></a> 
         <p>#1000 Days of Code: Day 35</p>
         <p>Up at 5:30, cafe by 7</p>
@@ -80,7 +84,7 @@
         <p>Started thinking about how I would execute <a href="https://github.com/JoshTeperman/code_goggles">Code Goggles</a>. Need to learn MySQL to store user data and challenges. Upvoting easy - score / weight algorithm. User login with server-side auth. Initial challenges are going to be how users (teachers only? or students as well?) add new challenges, and how I limit that. Codewars style of adding new short challenges would be cool too.</p>
         <p>Felt crazy tired after coding today, had a big nap.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-19"><h2 id="mar-19" class="entry-title">March 19</h2></a> 
         <p>#1000 Days of Code: Day 34</p>
         <p>Up at 6, at the cafe by 7. Stellar effort.</p>          
@@ -89,7 +93,7 @@
         <p>Designing the site has given me several ideas for other features : Dark Theme, Colour Randomiser, Rain animation, click-to-interact.</p>
         <p>Need to solve for how animations would work on mobile (no hover).</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-18"><h2 id="mar-18" class="entry-title">March 18</h2></a> 
         <p>#1000 Days of Code: Day 33</p>
         <p>Up at 5:40, at cafe by 7. This week is all about portfolio site. Must concentrate on clean code first, then get fancy only if I have time.</p>
@@ -97,7 +101,7 @@
         <p>Need more CSS practise (Zen Blog)</p>
         <p>Class work: couple of videos on design. More about Figma. We have 2.5 days to complete wireframes, mood board and overall design so will spend more time on this.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-17"><h2 id="mar-17" class="entry-title">March 17</h2></a> 
         <p>#1000 Days of Code: Day 32</p>
         <p>Up at 6am. Fished the CSS Grid exercises before breakfast. Plan today is to decide concept for portfolio site, and hopefully start Figma mock-up.</p>
@@ -105,7 +109,7 @@
         <p>Must also consider mobile users / responsive site design</p>
         <p>Idea for blog post - colour deign / colour values for design mockups (draw on art background)</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-16"><h2 id="mar-16" class="entry-title">March 16</h2></a> 
         <p>#1000 Days of Code: Day 31</p>
         <p>Up at 6:30, had an hour while N slept.</p>
@@ -113,7 +117,7 @@
         <p>These both looked cool: <a href="https://github.com/mckaywrigley/React-Insta-Clone/tree/mckay-wrigley">Insta Clone</a> and <a href="https://twitter.com/mckaywrigley/status/1106610732999675904">Fitness App</a>.</p>
         <p>comfortable with basic mock-ups now, time to start work on portfolio site.</p>
         </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-15"><h2 id="mar-15" class="entry-title">March 15</h2></a> 
         <p>#1000 Days of Code: Day 30</p>
         <p>Up at 6, at the cafe by 7:10.</p>
@@ -121,7 +125,7 @@
         <p>Portfolio site challenge starts next week so looked at example portfolio sites.</p>
         <p>Only went to the gym once this week. Aim for 3 times a week minimum.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-14"><h2 id="mar-14" class="entry-title">March 14</h2></a> 
         <p>#1000 Days of Code: Day 29</p>
         <p>Up at 6:00, cafe by 7:10</p>
@@ -131,7 +135,7 @@
         <p>Need to get basic portfolio / personal website up and running + linkedin page before that.</p>
         <p>Skills to go over: basic CSS (making shapes, backgrounds), file I/O for Ruby, classes for Ruby.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-13"><h2 id="mar-13" class="entry-title">March 13</h2></a> 
         <p>#1000 Days of Code: Day 28</p>
         <p>Awake from 4am thinking about programming and at local cafe by 6.</p>
@@ -140,14 +144,14 @@
         <p>Used Figma for the first time. Very useful / intuitive for bootstrapping designs.</p>
         <p>11 hours of coding today. Went home and watched Pro Chess League before bed.</p>
       </div>
-      <div class="content">
+      <div class="blog-post">
         <a href="#mar-12"><h2 id="mar-12" class="entry-title">March 12</h2></a> 
         <p>#1000 Days of Code: Day 27</p>
-        <p>Started HTML and CSS classes. Loved Harrison's idea of a GitHub Pages-hosted dev blog, started this blog. Idea is to write short daily updates and push daily to GitHub. Link to longer form content.</p>
+        <p>Started HTML and CSS classes. Loved Harrison's idea of a GitHub Pages-hosted dev blog, started this blog. Idea is to write short daily updates and push daily to GitHub. Link to longer form blog-post.</p>
         <p>Takes the pressure off writing long form pieces, and a good way to go over what I've learned, keep notes of important stuff.</p>
       </div>
-
     </div>
+    
   </div>
 
 </body>
@@ -160,6 +164,6 @@
 <!-- create a blog page similar to the one i showed you today (https://harrisonmalone.com) -->
 <!-- make the links (a tags) color dodger blue (just use inline styles for all css) -->
 <!-- create a favicon -->
-<!-- centre the content using margin and max-width (you'll have to google for this) -->
-<!-- create a posts directory, within that directory create two years directories (2018, 2019), within years have months, within a few of the months create blog posts with a title, date and content (lorem ipsum is fine) -->
+<!-- centre the blog-post using margin and max-width (you'll have to google for this) -->
+<!-- create a posts directory, within that directory create two years directories (2018, 2019), within years have months, within a few of the months create blog posts with a title, date and blog-post (lorem ipsum is fine) -->
 <!-- research <nav> and <footer>, create a navbar element and a footer element on the index page of your blog projectwhat kind of display is <nav> and <footer>, block or inline? -->
