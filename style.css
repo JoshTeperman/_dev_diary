@@ -82,6 +82,10 @@ a {
   text-decoration: none;
 }
 
+p a {
+  color: rgb(100, 3, 3);
+}
+
 p {
   margin: 10px 0px;
   text-align: justify;
