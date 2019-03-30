@@ -68,14 +68,12 @@ body {
   width: 800px;
   position: relative;
   top: 100px;
-
 } 
 
 .blog-post {
   display: block;
   width: 100%;
 }
-
 
 a {
   color: black;
@@ -90,8 +88,6 @@ p {
   margin: 10px 0px;
   text-align: justify;
 }
-
-
 
 .entry-title {
   border-bottom: 1px solid black;
